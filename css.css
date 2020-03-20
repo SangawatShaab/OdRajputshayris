@@ -82,6 +82,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  p{ display:block;
+	  width:30%;
+	  line-spacing:2px;
+  }
   #nav{
 	overflow:hidden;
 	background-color:#e9e9e9;
