@@ -110,11 +110,19 @@ p
 	background-color:#ddd;
 	color:black;
 }
-	p{  font-size:smaller; line-spacing:1px; }
+	p{  font-size:smaller; line-spacing:1px; width:30% }
 	body{
 	background-color: blue;
 	width:750px;
 	background-size:auto;
+	}
+	.header{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:30px;
+		width:55%;
+		
 	}
 }
 
