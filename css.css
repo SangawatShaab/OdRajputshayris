@@ -104,5 +104,8 @@
 	color:black;
 }
 	p{ display:block; width:30%; line-spacing:2px; }
+	body{
+	width:600px;
+	}
 }
 
