@@ -103,10 +103,10 @@
 	background-color:#ddd;
 	color:black;
 }
-	p{ display:block; width:30%; font-size:smaller; line-spacing:2px; }
+	p{  font-size:smaller; line-spacing:2px; }
 	body{
-		background-color:yellow;
-	width:600px;
+	background-color: blue;
+	width:200px;
 	}
 }
 
