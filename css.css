@@ -97,17 +97,18 @@
 	padding:5px 8px;
 	font-size:20px;
 	text-decoration:none;
-	width:33%;
+	width:26%;
 	
 }
 #nav a:hover{
 	background-color:#ddd;
 	color:black;
 }
-	p{  font-size:smaller; line-spacing:2px; }
+	p,pre{  font-size:smaller; line-spacing:2px; }
 	body{
 	background-color: blue;
-	width:700px;
+	width:750px;
+	background-size:auto;
 	}
 }
 
