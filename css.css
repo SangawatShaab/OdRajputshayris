@@ -86,7 +86,8 @@
   #nav{
 	overflow:hidden;
 	background-color:#e9e9e9;
-	height:160x;
+	height:220x;
+	  width:100%;
   }
   #nav a{
 	display:block;
