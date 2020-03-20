@@ -1,0 +1,106 @@
+
+#nav{
+	overflow:hidden;
+	background-color:#e9e9e9;
+	height:45px;
+	}
+.header{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:25px;
+	
+}
+#nav a{
+	display:block;
+	text-align:center;
+	float:left;
+	color:black;
+	padding:12px 17px;
+	font-size:20px;
+	text-decoration:none;
+}
+#nav a:hover{
+	background-color:#ddd;
+	color:black;
+}
+#nav a.active{
+	background-color:#2196F3;
+	color:white;
+}
+#nav #container{
+	float:right;
+}
+#nav input[type=text]{
+	margin-top:6px;
+	
+	padding:0px;
+	height:32px;
+	border:none;
+	font-size:17px;
+	width:120px;
+}
+#nav input[type=password]{
+	margin-top:6px;
+	
+	padding:2px;
+	height:32px;
+	border:none;
+	font-size:17px;
+	width:120px;
+}
+#nav #container button{
+	color:white;
+	margin-top:6px;
+	height:32px;
+	padding:6px 11px;
+	font-size:17px;
+	margin-right:22px;
+	float:right;
+	cursor:pointer;
+	border:none;
+	background-color:#555;
+}
+#nav #container button:hover{
+	background-color:green;
+}
+.content{
+	padding:60px;
+	font-size:25px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content{
+	font-size:25px;
+	padding:60px;
+}
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #nav{
+	overflow:hidden;
+	background-color:#e9e9e9;
+	height:120px;
+  }
+  #nav a{
+	display:block;
+	text-align:center;
+	float:left;
+	color:black;
+	padding:5px 8px;
+	font-size:20px;
+	text-decoration:none;
+	width:33%;
+	
+}
+#nav a:hover{
+	background-color:#ddd;
+	color:black;
+}
+}
+
